@@ -1,0 +1,52 @@
+* {
+    margin: 0px;
+}
+
+body{
+    /* margin: auto; */
+}
+
+.title, .list {
+    border-radius: 20px;
+}
+
+.title {
+    font-size: 50px;
+    color: #2e8b57;
+    font-weight: 900;
+    font-variant-caps: petite-caps;
+    text-align: center;
+    margin: 50px;
+    padding: 30px 20px 0px 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-bottom: 5px ridge #2e8b57;
+    background-color:rgba(13, 236, 13, 0.164);
+    /* border-style: ; */
+}
+
+.list, li::marker, a {
+    color: #0a5f26;
+}
+
+a {
+    font-style: italic;
+}
+
+.list, li::marker {
+    /* display: inline-block; */
+    /* margin: auto; */
+    /* text-align: center; */
+    margin: -120px auto;
+    width: 400px;  
+    padding: 100px;
+    border: 2px solid rgb(33, 61, 138);
+    background-color: rgba(24, 163, 255, 0.116);
+    font-size: larger;
+}
+
+li.lnitem {
+    margin: auto;
+    /* text-align:center; */
+    /* border: 2px solid orange; */
+    width: fit-content;
+}

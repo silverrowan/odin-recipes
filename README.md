@@ -1,2 +1,3 @@
 # odin-recipes
-Hand coded recipie website, using HTML only
+Hand coded recipie website,
+Simple html, styled with exterior Css
